@@ -427,7 +427,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/FPS/Prefabs/Enemies
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: /Users/joseph/Projects/New Unity Project
+  m_LastProjectPath: /Users/joseph/Projects/ggj2021-3d
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:

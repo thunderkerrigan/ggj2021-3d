@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{07352f89-d617-1276-198c-85cc9543086b}</ProjectGuid>
+    <ProjectGuid>{ef780771-6ca0-b187-27f4-cbd889324476}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -304,35 +304,50 @@
  <Reference Include="UnityEditor.LinuxStandalone.Extensions">
  <HintPath>/Applications/Unity/2020.2.1f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="System.IO.Compression.FileSystem">
- <HintPath>/Users/joseph/Projects/New Unity Project/Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
- </Reference>
- <Reference Include="nunit.framework">
- <HintPath>/Users/joseph/Projects/New Unity Project/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ <Reference Include="PlayMakerEditor">
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditorResources">
- <HintPath>/Users/joseph/Projects/New Unity Project/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
- </Reference>
- <Reference Include="ConditionalExpressionEditor">
- <HintPath>/Users/joseph/Projects/New Unity Project/Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll</HintPath>
- </Reference>
- <Reference Include="PlayMaker">
- <HintPath>/Users/joseph/Projects/New Unity Project/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
- </Reference>
- <Reference Include="PlayMakerEditor">
- <HintPath>/Users/joseph/Projects/New Unity Project/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
  </Reference>
  <Reference Include="ConditionalExpression">
- <HintPath>/Users/joseph/Projects/New Unity Project/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.FileSystem">
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Library/PackageCache/com.unity.connect.share@2.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
- <HintPath>/Users/joseph/Projects/New Unity Project/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMaker">
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>/Users/joseph/Projects/New Unity Project/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="ConditionalExpressionEditor">
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll</HintPath>
  </Reference>
  <Reference Include="DDebug">
- <HintPath>/Users/joseph/Projects/New Unity Project/Assets/Doozy/Engine/Debug/DDebug.dll</HintPath>
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/Doozy/Engine/Debug/DDebug.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Logging">
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+ </Reference>
+ <Reference Include="sfw.net">
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Unity.45">
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.UnityShim">
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Api.45">
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/2020.2.1f1/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -689,21 +704,21 @@
  <HintPath>/Applications/Unity/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Users/joseph/Projects/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Users/joseph/Projects/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>/Users/joseph/Projects/New Unity Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>/Users/joseph/Projects/New Unity Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>/Users/joseph/Projects/ggj2021-3d/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{1b99fb8a-2a4a-387b-e812-6612d722293c}</Project>
+      <Project>{51b12a15-16ec-ba49-1e6e-5437ff50c4e0}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
